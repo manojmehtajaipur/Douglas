@@ -1,0 +1,36 @@
+Folder structure :
+allure-report: In this folder UI report is generated from the .json file when we run the command 'npx allure generate'
+allure-results: this folder is auto generated when we run our tests on the server. It generates .json file, which contains results of the run.
+
+documents: 
+    projectsturecture:  In this explains about the files and folders in this project.
+    setupandexecuction: this file explains about the pre-requisites and commands to run and generate the report.
+
+fixtures: This folder contains test data of the project
+    aktionenfilters.json : In this file we have filters for the aktionen dropdown.
+    classname.json : In this file we have classname for the assertion of active tab.
+    userconfig.json : In this file we have configuration related to login.
+
+helper:
+    helper.ts : Common or helper methods that is needed for all the project.
+
+src:
+    pages:  This folder will have all the methods and elements for each UI page exam:
+        home.page.ts 
+        parfum.page.ts
+
+    specs:  All the test case files will be in this folder.
+        test.spec.ts
+    
+.gitignore: this file will have list of files name that needs to be skiped in git commits.
+package-lock.json : this file will have updated versions of the packages.
+package.json : all the packages required for the project.
+playwright.config.ts: configurations of the playwright like test folder, browser config and reporting details.
+
+
+Steps to create a new test:
+    Step 1: Create test file in specs folder.
+    Steps 2: Create new page file in src/pages and add methods and locators need for that page.
+    Step 3: Add test data files in fixtures folder.
+    Steps 4: Call pages methods in test file and pass the test data as arguments if required.
+    Steps 5: Run the test and generate the report 

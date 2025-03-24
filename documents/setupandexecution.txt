@@ -1,0 +1,16 @@
+Prerequisits to run the project:
+Node
+Java
+VS Code (IDE)
+
+To setup the project on the system follow the below steps:
+
+1. Clone the project from github repo
+2. Open the project folder in the VS Code
+3. Open the terminal and
+4. Run 'npm install' or 'npx install' on the project (This will install all the project dependencies on the project folder)
+
+Run the tests on the local:
+Command to run tests:  'npx playwright test --headed'
+Command to generate report:  'npx allure generate'
+Command to view the report:  'npx allure serve'
