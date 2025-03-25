@@ -14,16 +14,10 @@ export class HomePageClass {
    public acceptAllButton = '[data-testid="uc-accept-all-button"]'
    public perfumTab = '[aria-label="PARFUM"]'
 
-   /**
-    * Accept Cookies Consent
-    */
    async acceptCookiesConsent() {
       await this.helperpage.click(this.acceptAllButton)
    }
 
-   /**
-    * Click on ParfumTab
-    */
    async clickOnParfumTab() {
       await this.helperpage.click(this.perfumTab)
    }

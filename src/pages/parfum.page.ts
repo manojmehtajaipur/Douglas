@@ -16,12 +16,6 @@ export class ParfumPageClass {
    public filter(filterName) { return '//div[@class="rc-scrollbars-view"]//div[contains(text(),"' + filterName + '")]' }
    public filterContainer = '//button[@class="selected-facets__value"]'
 
-/**
- * 
- * @param filter is name of the filter
- * Click on filter and
- * Select aktionen filter as per parameter
- */
    async selectAktionenFilter(filter) {
       await this.helperpage.wait(this.aktionenFilter)
       await this.helperpage.click(this.aktionenFilter)

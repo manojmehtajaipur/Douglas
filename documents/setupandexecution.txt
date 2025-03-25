@@ -14,3 +14,6 @@ Run the tests on the local:
 Command to run tests:  'npx playwright test --headed'
 Command to generate report:  'npx allure generate'
 Command to view the report:  'npx allure serve'
+
+options:
+    Run with retries:  npx playwright test --headed --retries=2
