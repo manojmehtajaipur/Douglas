@@ -1,5 +1,3 @@
-//helper.ts
-
 import type { expect, Page } from '@playwright/test';
 
 export class HelperClass {
