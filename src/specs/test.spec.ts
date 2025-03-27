@@ -1,5 +1,3 @@
-//test.spec.ts
-
 import { test, expect, Page } from '@playwright/test';
 import { HomePageClass } from '../pages/home.page'
 import { ParfumPageClass } from '../pages/parfum.page'
