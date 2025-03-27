@@ -3,6 +3,7 @@ allure-report: In this folder UI report is generated from the .json file when we
 allure-results: this folder is auto generated when we run our tests on the server. It generates .json file, which contains results of the run.
 
 documents: 
+    logs{Date} : Log file with current date in name will be created to store the logs
     projectsturecture:  In this explains about the files and folders in this project.
     setupandexecuction: this file explains about the pre-requisites and commands to run and generate the report.
 
