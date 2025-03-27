@@ -1,5 +1,3 @@
-//parfum.page.ts
-
 import type { Page } from '@playwright/test';
 import { HelperClass } from '../../helper/helper';
 
